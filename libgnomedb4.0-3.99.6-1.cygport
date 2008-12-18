@@ -1,0 +1,14 @@
+ORIG_PN="libgnomedb"
+inherit gnome2
+
+DESCRIPTION="GNOME Database Access UI libraries"
+HOMEPAGE="http://www.gnome-db.org/"
+
+PATCH_URI="3.99-cygwin.patch"
+
+PKG_NAMES="${PN} ${PN}_4 ${PN}-devel glade3-gnomedb"
+libgnomedb4_0_4_CONTENTS="--exclude=gtk-doc --exclude=glade3 etc/ usr/bin/
+                          usr/lib/libglade/ usr/lib/gnome-db-4.0/ usr/share/"
+libgnomedb4_0_devel_CONTENTS="usr/include/ usr/lib/libgnomedb*.*
+                              usr/lib/pkgconfig/ usr/share/gtk-doc/"
+glade3_gnomedb_CONTENTS="usr/lib/glade3/ usr/share/glade3/"
