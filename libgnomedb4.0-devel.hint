@@ -1,5 +1,5 @@
 category: Database Gnome
-requires: cygwin libgnomedb4.0_4 libcairo-devel libgconf2-devel libgda4.0-devel libgdk_pixbuf2.0-devel libglade2.0-devel libglib2.0-devel libgoocanvas-devel libgraphviz-devel libgtk2.0-devel libgtksourceview2.0-devel gettext libpango1.0-devel libxml2-devel
+requires: libgnomedb4.0_4 libcairo-devel libgconf2-devel libgda4.0-devel libgdk_pixbuf2.0-devel libglade2.0-devel libglib2.0-devel libgoocanvas-devel libgraphviz-devel libgtk2.0-devel libgtksourceview2.0-devel gettext libpango1.0-devel libxml2-devel
 external-source: libgnomedb4.0
 sdesc: "GNOME database UI library (development)"
 ldesc: "Database UI library for the GNOME Desktop"
